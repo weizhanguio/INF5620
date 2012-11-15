@@ -1,0 +1,41 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{graphicx}
+\parindent=19pt
+\begin{document}
+\title{Finite Element Method}
+\author{Wei Zhang}
+\large
+\maketitle
+
+\section{Exercise 3: Approximate a three-dimensional vector in a plane}
+We extend the unit vectors $\boldsymbol{\varphi}_{0}=(1,0)$ and $\boldsymbol{\varphi}_{1}=(0,1)$ to (1, 0, 0) and (0, 1, 0) respectively. The vector $\textbf{u}=\displaystyle \sum^{1}_{i=0}c_{i}\boldsymbol{\varphi}_{i}$, the error $\textbf{e}=\textbf{f}-\textbf{u}$. We should choose coefficients $c_{0}$, $c_{1}$ to get the best approximation. According to the Galerkin method, we obtain
+\begin{equation}
+(\textbf{e},\boldsymbol{\varphi}_{i})=0
+\end{equation}
+\begin{equation*}
+\begin{cases}
+(\textbf{f}-c_{0}\boldsymbol{\varphi}_{0}-c_{1}\boldsymbol{\varphi}_{1},\boldsymbol{\varphi}_{0})=0\\
+(\textbf{f}-c_{0}\boldsymbol{\varphi}_{0}-c_{1}\boldsymbol{\varphi}_{1},\boldsymbol{\varphi}_{1})=0
+\end{cases}
+\end{equation*}
+\begin{equation*}
+\begin{cases}
+(1-c_{0},1-c_{1},1)\cdot(1, 0, 0)=0\\
+(1-c_{0},1-c_{1},1)\cdot(0, 1, 0)=0
+\end{cases}
+\end{equation*}
+$c_{0}=1$, $c_{1}=1$. $\textbf{u}=(1, 1)$. \par
+ The same principle applies to vectors (2,1) and (1,2). We get
+\begin{equation*}
+\begin{cases}
+(1-2c_{0}-c_{1}, 1-c_{0}-2c_{1}, 1)\cdot(2, 1, 0)=0\\
+(1-2c_{0}-c_{1}, 1-c_{0}-2c_{1}, 1)\cdot(1, 2, 0)=0
+\end{cases}
+\end{equation*}
+$c_{0}=\displaystyle\frac{1}{3}$, $c_{1}=\displaystyle\frac{1}{3}$. $\textbf{u}=(1, 1)$.
+\end{document}
+

@@ -1,0 +1,61 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{graphicx}
+\parindent=19pt
+\begin{document}
+\title{Finite Element Method}
+\author{Wei Zhang}
+\large
+\maketitle
+\section{Exercise 20: Compute the deflection of a cable with 1 P2 elements}
+The shape functions are
+\begin{gather*}
+\varphi_{A}=2(x-0.5)(x-1), \quad  \varphi_{B}=-4x(x-1), \quad  \varphi_{C}=2x(x-0.5)
+\end{gather*}
+
+Based on the scheme in Exercise 17, the linear system is
+\begin{gather*}
+\begin{pmatrix}
+7/3 & -8/3 &1/3\\
+-8/3 & 16/3 &-8/3\\
+1/3 &-8/3  &7/3
+\end{pmatrix}
+\begin{pmatrix}
+u_{A}\\
+u_{B}\\
+u_{C}\\
+\end{pmatrix}=
+\begin{pmatrix}
+-1/6\\
+-2/3\\
+-1/6
+\end{pmatrix}
+\end{gather*}
+Since $u_{A}=0$, the linear system become
+\begin{gather*}
+\begin{pmatrix}
+ 16/3 &-8/3\\
+-8/3  &7/3
+\end{pmatrix}
+\begin{pmatrix}
+u_{B}\\
+u_{C}\\
+\end{pmatrix}=
+\begin{pmatrix}
+-2/3\\
+-1/6
+\end{pmatrix}
+\end{gather*}
+
+\begin{gather*}
+u_{B}= -0.375, \qquad u_{C}= -0.5
+\end{gather*}
+\begin{gather*}
+\hat{u}=-0.375\varphi_{B}-0.5\varphi_{C}=0.5x^{2}-x.
+\end{gather*}
+We find that $\hat{u}$ equals to the exact solution.
+\end{document}
+

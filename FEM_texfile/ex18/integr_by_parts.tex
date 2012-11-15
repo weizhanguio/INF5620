@@ -1,0 +1,34 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{graphicx}
+\parindent=19pt
+\begin{document}
+\title{Finite Element Method}
+\author{Wei Zhang}
+\large
+\maketitle
+
+
+\section{Exercise 18: Check integration by parts}
+The problem is
+\begin{gather}
+u''=1, x\in(0, 1), \qquad  u(0)=0, \quad u'(1)=0
+\end{gather}
+\begin{center}
+$u\approx \hat{u}=0+\displaystyle \sum^{N}_{j=1}c_{j}N_{j}(x)$
+\end{center}
+with $N_{j}(0)=0$.\par 
+We choose weighting function $W_{i}=N_{i}$. This leads to:
+\begin{gather}
+\displaystyle \sum^{N}_{j=1}\left(\int^{1}_{0} N_{i}N''_{j}(x)dx\right)c_{j}=\int^{1}_{0} N_{i}dx, \qquad i=1, \ldots, N.
+\end{gather}
+Integrating by parts on the left side
+\begin{gather}
+\displaystyle -\sum^{N}_{j=1}\left(\int^{1}_{0} N'_{i}N'_{j}(x)dx\right)c_{j}+N_{i}(1)\hat{u}'(1)-N_{i}(0)\hat{u}'(0)=\int^{1}_{0} N_{i}dx, \quad i=1, \ldots, N.
+\end{gather}
+Since the integral only  with respect to $x$, $c_{j}$ are independent of whether we perform integration by part or not.
+\end{document}
+

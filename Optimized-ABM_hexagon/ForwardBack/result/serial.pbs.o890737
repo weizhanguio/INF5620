@@ -1,0 +1,19 @@
+Serial Forward-Back version---------------
+T=400000, h=0.1, N=4000000
+Application 1947484 exit signals: Terminated
+Application 1947484 resources: utime ~18013s, stime ~0s
+--------------------------------------------------
+Begin PBS Epilogue hexagon.bccs.uib.no
+Date:             Sat Jan  5 17:22:17 CET 2013
+Job ID:           890737.ufs
+Username:         weizhang
+Group:            weizhang
+Job Name:         serial.pbs
+Session:          7655
+Limits:           walltime=05:00:00
+Resources:        walltime=05:00:14
+Queue:            normal
+Account:          nn2849k
+Base login-node:  login2
+End PBS Epilogue  Sat Jan  5 17:22:17 CET 2013
+--------------------------------------------------

@@ -1,0 +1,23 @@
+#!/bin/bash
+#
+# Give the job a name (optional)
+#
+#
+# Specify the project the job should be accounted on (obligatory)
+#PBS -A nn2849k 
+#
+# The job needs at most 60 hours wall-clock time on 1 CPU (obligatory)
+#PBS -l mppwidth=1,walltime=5:00:00
+#
+# Write the standard output of the job to file 'seqjob.out' (optional)
+#
+#
+# Write the standard error of the job to file 'seqjob.err' (optional)
+#
+#
+# Make sure I am in the correct directory
+#mkdir -p /work/$USER/ABM
+cd /work/weizhang/ABM/Optimized-ABM/LoopFusion
+#cd /home/uio/weizhang
+# Invoke the executable on the compute node
+aprun -B ./app 0.1 200000

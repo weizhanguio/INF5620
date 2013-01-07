@@ -1,0 +1,5 @@
+omplace information:
+   4 threads, thread model is intel
+   placement file /tmp/omplace.file.17432:
+    firsttask cpu=0 
+    thread oncpu=0 cpu=1 noplace=1  exact

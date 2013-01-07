@@ -1,0 +1,3 @@
+h=0.100000T=100000.000000Serial Temporal-Blocking and ForwardBack combination version-----
+T=100000, h=0.1, N=1000000
+y[1000000]=1.784120e-03	time usage=427.99	GFLOPs=4.67301

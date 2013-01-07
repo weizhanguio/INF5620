@@ -1,0 +1,8 @@
+omplace information:
+   16 threads, thread model is intel
+   placement file /tmp/omplace.file.19483:
+    firsttask cpu=0 
+    thread oncpu=0 cpu=1-15 noplace=1  exact
+OpenMP Temporal-Blocking version---------------
+T=100000, h=0.1, N=1000000
+Number of threads = 16	y[1000000]=1.784120e-03	time usage=30.4447	GFLOPs=65.693

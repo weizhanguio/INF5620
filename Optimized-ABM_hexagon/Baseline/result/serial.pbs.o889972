@@ -1,0 +1,19 @@
+Serial Baseline version---------------
+T=20000, h=0.1, N=200000
+y[200000]=3.989327e-03    timeusage=52.02    GFLOPs=1.53788
+Application 1945618 resources: utime ~52s, stime ~0s
+--------------------------------------------------
+Begin PBS Epilogue hexagon.bccs.uib.no
+Date:             Wed Jan  2 22:31:15 CET 2013
+Job ID:           889972.ufs
+Username:         weizhang
+Group:            weizhang
+Job Name:         serial.pbs
+Session:          8963
+Limits:           walltime=05:00:00
+Resources:        walltime=00:00:53
+Queue:            normal
+Account:          nn2849k
+Base login-node:  login5
+End PBS Epilogue  Wed Jan  2 22:31:15 CET 2013
+--------------------------------------------------

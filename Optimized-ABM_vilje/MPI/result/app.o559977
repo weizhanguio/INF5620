@@ -1,0 +1,9 @@
+omplace information:
+   MPI type is SGI MPI, 32 threads, thread model is intel
+   placement file /tmp/omplace.file.9840:
+    fork skip=0  exact cpu=0-31:32 
+    thread oncpu=0 cpu=1-31 noplace=1  exact
+MPI Temporal-Blocking and ForwardBack combination version-----
+Num MPI procs=2
+T=2000, h=0.1, N=20000
+Num MPI procs=2	y[20000]=1.261258e-02	time usage=339.39	GFLOPs=0.00235729

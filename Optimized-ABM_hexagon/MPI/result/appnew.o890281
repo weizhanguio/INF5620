@@ -1,0 +1,20 @@
+MPI Temporal-Blocking and ForwardBack combination version-----
+Num MPI procs=4
+T=200000, h=0.1, N=2000000
+Num MPI procs=4	y[2000000]=1.261636e-03	timeusage=1255.57	GFLOPs=6.37161
+Application 1946350 resources: utime ~5021s, stime ~2s
+--------------------------------------------------
+Begin PBS Epilogue hexagon.bccs.uib.no
+Date:             Thu Jan  3 15:17:15 CET 2013
+Job ID:           890281.ufs
+Username:         weizhang
+Group:            weizhang
+Job Name:         appnew
+Session:          27482
+Limits:           walltime=03:00:00
+Resources:        walltime=00:20:57
+Queue:            normal
+Account:          nn2849k
+Base login-node:  login3
+End PBS Epilogue  Thu Jan  3 15:17:15 CET 2013
+--------------------------------------------------

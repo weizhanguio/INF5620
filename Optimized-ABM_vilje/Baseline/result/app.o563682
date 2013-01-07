@@ -1,0 +1,3 @@
+Serial Baseline version---------------
+T=200000, h=0.1, N=2000000
+y[2000000]=1.261584e-03    time usage=4456.56    GFLOPs=1.79511

@@ -1,0 +1,19 @@
+Serial LoopFusion version---------------
+T=100000, h=0.1, N=1000000
+y[1000000]=1.784123e-03    timeusage=1561.24    GFLOPs=1.28103
+Application 1945656 resources: utime ~1561s, stime ~0s
+--------------------------------------------------
+Begin PBS Epilogue hexagon.bccs.uib.no
+Date:             Wed Jan  2 23:03:14 CET 2013
+Job ID:           889991.ufs
+Username:         weizhang
+Group:            weizhang
+Job Name:         serial.pbs
+Session:          9609
+Limits:           walltime=05:00:00
+Resources:        walltime=00:26:02
+Queue:            normal
+Account:          nn2849k
+Base login-node:  login5
+End PBS Epilogue  Wed Jan  2 23:03:14 CET 2013
+--------------------------------------------------

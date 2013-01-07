@@ -1,0 +1,4 @@
+MPI Temporal-Blocking and ForwardBack combination version-----
+Num MPI procs=16
+T=200000, h=0.1, N=2000000
+Num MPI procs=16	y[2000000]=1.261584e-03	time usage=122.53	GFLOPs=65.2902

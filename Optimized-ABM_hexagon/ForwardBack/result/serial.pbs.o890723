@@ -1,0 +1,19 @@
+Serial Forward-Back version---------------
+T=300000, h=0.1, N=3000000
+y[3000000]=1.030075e-03      timeusage=13169.7      GFLOPs=1.36678
+Application 1947444 resources: utime ~13170s, stime ~0s
+--------------------------------------------------
+Begin PBS Epilogue hexagon.bccs.uib.no
+Date:             Sat Jan  5 14:15:12 CET 2013
+Job ID:           890723.ufs
+Username:         weizhang
+Group:            weizhang
+Job Name:         serial.pbs
+Session:          3674
+Limits:           walltime=05:00:00
+Resources:        walltime=03:39:30
+Queue:            normal
+Account:          nn2849k
+Base login-node:  login2
+End PBS Epilogue  Sat Jan  5 14:15:12 CET 2013
+--------------------------------------------------

@@ -1,0 +1,3 @@
+Serial Temporal-Blocking version---------------
+T=200000, h=0.1, N=2000000
+y[2000000]=1.261584e-03	time usage=2440.49	GFLOPs=3.27803

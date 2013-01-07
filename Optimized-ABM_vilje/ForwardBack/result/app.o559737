@@ -1,0 +1,3 @@
+Serial Forward-Back version---------------
+T=200000, h=0.1, N=2000000
+y[2000000]=1.261584e-03      time usage=3109.54      GFLOPs=2.57273

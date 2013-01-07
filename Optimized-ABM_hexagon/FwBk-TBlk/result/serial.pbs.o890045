@@ -1,0 +1,19 @@
+h=0.100000T=100000.000000Serial Temporal-Blocking and ForwardBack combination version-----
+T=100000, h=0.1, N=1000000
+y[1000000]=1.784123e-03	timeusage=696.24	GFLOPs=2.87258
+Application 1945783 resources: utime ~696s, stime ~0s
+--------------------------------------------------
+Begin PBS Epilogue hexagon.bccs.uib.no
+Date:             Thu Jan  3 01:04:10 CET 2013
+Job ID:           890045.ufs
+Username:         weizhang
+Group:            weizhang
+Job Name:         serial.pbs
+Session:          21318
+Limits:           walltime=05:00:00
+Resources:        walltime=00:11:37
+Queue:            normal
+Account:          nn2849k
+Base login-node:  login4
+End PBS Epilogue  Thu Jan  3 01:04:10 CET 2013
+--------------------------------------------------

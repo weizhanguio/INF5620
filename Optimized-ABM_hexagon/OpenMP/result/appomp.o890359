@@ -1,0 +1,19 @@
+OpenMP Temporal-Blocking version---------------
+T=40000, h=0.1, N=400000
+Number of threads = 2	y[400000]=2.820916e-03	timeusage=50.9477	GFLOPs=6.28097
+Application 1946466 resources: utime ~102s, stime ~0s
+--------------------------------------------------
+Begin PBS Epilogue hexagon.bccs.uib.no
+Date:             Thu Jan  3 15:29:18 CET 2013
+Job ID:           890359.ufs
+Username:         weizhang
+Group:            weizhang
+Job Name:         appomp
+Session:          8703
+Limits:           walltime=02:00:00
+Resources:        walltime=00:00:52
+Queue:            normal
+Account:          nn2849k
+Base login-node:  login4
+End PBS Epilogue  Thu Jan  3 15:29:18 CET 2013
+--------------------------------------------------
